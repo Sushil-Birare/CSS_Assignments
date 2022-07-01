@@ -1,0 +1,25 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container1 {
+    margin: auto;
+    width: 720px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: solid grey 1px;
+    border-bottom: none;
+}
+
+.container2 {
+    margin: auto;
+    width: 720px;
+    border: solid grey 1px;
+    border-top: none;
+}
+
+.item {
+    border: 1px solid grey;
+    padding: 20px;
+}

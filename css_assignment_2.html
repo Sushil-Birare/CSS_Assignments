@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        header {
+            background-color: black;
+            height: 60px;
+        }
+
+        nav>li {
+            list-style-type: none;
+            display: inline-block;
+            color: white;
+            position: relative;
+            left: 20px;
+            padding-top: 20px;
+            padding-right: 15px;
+        }
+
+        .section_one, .section_two {
+            display: inline-block;
+            float: left;
+            background-color: yellow;
+            height: 450px;
+            width: 300px;
+            margin-top: 18px;
+        }
+
+        .section_two {
+            float: right;
+        }
+
+        .footer {
+            background-color: black;
+            color: aqua;
+            text-align: center;
+            margin-top: 36%;
+            height: 40px;
+            padding-top: 20px;
+        }
+
+        nav > li:hover{
+            color: aqua;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li>Home</li>
+            <li>Dashboard</li>
+            <li>About us</li>
+        </nav>
+    </header>
+
+    <section class="section_one">
+        <ul>
+            <h3>Course we offer</h3>
+            <li>Java full stack</li>
+            <li>Python full stack</li>
+            <li>MEAN/MERN full stack</li>
+            <li>Diploma in Software Testing</li>
+        </ul>
+    </section>
+
+    <section class="section_two">
+        <ul>
+            <h3>Contact with us</h3>
+            <li>Whatsapp</li>
+            <li>Telegram</li>
+        </ul>
+    </section>
+
+    <div class="footer">
+        COPYWRITES - FIRSTBIT SOLUTIONS PVT LTD.
+    </div>
+</body>
+
+</html>
